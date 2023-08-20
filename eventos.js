@@ -3,7 +3,7 @@ function createAlert() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    let btn = document.getElementById('div');
+    let btn = document.getElementById('btnSaludar');
     btn.addEventListener("click", createAlert); 
 });
 
