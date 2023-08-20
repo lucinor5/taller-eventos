@@ -1,9 +1,9 @@
 function createAlert() {
-    window.alert("Hola! Soy el div");
+    window.alert("Hola! Soy el div!");
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    let btn = document.getElementById('btnSaludar');
+    let btn = document.getElementById('div');
     btn.addEventListener("click", createAlert); 
 });
 
